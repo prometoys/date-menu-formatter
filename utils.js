@@ -8,7 +8,7 @@ var PrefFields = {
 };
 
 function getCurrentLocale() {
-    return (new Intl.DateTimeFormat()).resolvedOptions().locale
+    return (new Intl.DateTimeFormat()).resolvedOptions().locale;
 }
 
 function convertToPattern(str) {
